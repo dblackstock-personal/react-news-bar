@@ -1,22 +1,50 @@
-.App {
+.news-bar{
+  display:flex;
   text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  color: grey;
+  /* text-align: left; */
+  width:100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height:25px;
+  /* align-items:baseline; */
 }
 
-.App-link {
-  color: #09d3ac;
+.header-left, .header-right{
+  padding:0;
+  width:12%;
+  font-weight: bold;
+}
+
+.header-left{
+  font-size: large;
+}
+
+.horizontal-bar{
+  border-bottom: grey solid 1px;
+  width:100%;
+  height:50%;
+}
+
+.story{
+  display:flex;
+  flex-wrap:wrap;
+  color: grey;
+  font-weight: bold;
+  width: 15%;
+  /* border: black solid 1px; */
+  padding: 2% 1%;
+}
+
+.imageContainer{
+  height:60%;
+}
+
+.image{
+  width:100%;
+  height: 101px;
 }
